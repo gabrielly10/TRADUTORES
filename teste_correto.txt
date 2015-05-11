@@ -1,0 +1,19 @@
+/*DEFINICOES
+//Definicao de um AFD, conversao para AFN e impresao da nova definicao na tela
+AFD M <- Q == {q0, q1, q2}, 
+E == {a, b}, 
+D == {(q0a, q1), (q1a, q2)}, 
+F == {q2};*/
+
+M to AFN B;
+show B;
+
+/*OPERACOES REGULARES*/
+//So ocorrem entre automatas do mesmo tipo (p.e. AFD = AFD*
+
+M=M**;
+M=M:M;
+M=M++A;
+
+int i = 5;
+void function () {}
