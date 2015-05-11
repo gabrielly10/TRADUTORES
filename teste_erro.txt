@@ -1,0 +1,16 @@
+/*ERRO DE USO DE NUMEROS FLUTUANTES*/
+//WARNING (linha 1, coluna 20): .0 nao ha a necessidade de usar numeros nao inteiros nessa linguagem por enquanto
+//WARNING (linha 3, coluna 70): .2 nao ha a necessidade de usar numeros nao inteiros nessa linguagem por enquanto
+//AFD M <- Q == {q0.0, q1, q2}, E == {a, b}, D == {(q0a, q1), (q1a, q.2)}, F == {q2};
+
+/*ERRO DE DEFINICAO DE ID*/
+// VARIAVEL NAO PODE SER UMA KEYWORD -- TRATAR NO SINTATICO
+// INICIO DE VARIAVEL COM NUMERO
+// ERRO (linha 8, coluna 12): 3B	voce nao pode comecar um identificador com um numero
+M to AFN 3B;
+show B;
+
+/*TOKEN DESCONHECIDO*/
+~ 
+& 
+^ 
